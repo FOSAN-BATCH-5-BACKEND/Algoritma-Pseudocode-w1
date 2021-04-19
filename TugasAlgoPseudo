@@ -1,0 +1,34 @@
+1.NEWTON SECOND LAW
+  Program : hitung_resultan_gaya
+  -----------------------------------
+  - Deklarasi : var m, a, resultan_gaya;
+  - resultan_gaya <- m * a; (di input user)
+  - write (resultan_gaya)
+
+2.TAHUN KABISAT
+  Program : menentukan_tahun_kabisat
+  ------------------------------------
+  - Deklarasi : var tahun;
+  - input tahun; (di input user)
+  - menghitung sisa hasil bagi tahun%(modulo) 4
+  - if tahun habis dibagi dengan 4
+    print "Tahun Kabisat"
+  - else tahun tidak habis dibagi dengan 4
+    print "Bukan Tahun Kabisat"
+
+3.LAUNDRY DAY
+  Program : menghitung_jumlah_pakaian
+  --------------------------------------
+  - Deklarasi : var pakaian;
+  - while pakaian <= 21
+    print "silahkan menyalakan mesin cuci"
+
+4.PERIKSA KUKU
+  Program : pemeriksaan_kuku
+  --------------------------------------------
+  - Deklarasi : var siswa = 40;
+  - for siswa <= 41;
+    if (siswa_berkuku_pendek)
+    print "Bagus Kukumu Tidak Panjang"
+    else if (siswa_berkuku_panjang)
+    print "Kamu di Hukum, Kukumu Panjang !"
