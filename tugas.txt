@@ -1,0 +1,37 @@
+
+1.
+READ variable = massa benda(kg)
+READ variable = percepatan benda(m/s2)
+READ variable = resultan gaya
+
+IF massa benda x percepatan benda
+PRINT "(resultan gaya)"
+
+2.
+READ variable = 
+
+
+
+
+3.
+READ variable = 20
+READ variable = a
+
+IF a = 20
+PRINT "mesin cuci mnyala"
+ELSE
+a < 20
+PRINT "tidak menyala"
+
+
+4. 
+READ kuku equal to 40
+READ kuku panjang
+READ kuku pendek
+
+//looping FOR
+FOR kuku equal 1 until 40
+kuku pendek PRINT "memuji"
+kuku panjang PRINT "dihukum"
+
+
