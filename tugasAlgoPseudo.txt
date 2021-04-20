@@ -1,0 +1,47 @@
+// 1 . Newton 2 Law 
+Hukum II Newton
+
+READ m = 600
+READ a = 2 m/s2 
+
+Operator = kali(*) 
+Resultan gaya(ΣF) = m * a
+
+PRINT Resultan gaya(ΣF)
+
+
+// 2 . Tahun Kabisat 
+Tahun Kabisat
+
+READ tahun 
+
+IF tahun modulus 4 equal to 0 AND tahun modulus 100 not equal to 100 
+OR tahun modulus 4 equal to 0 AND tahun modulus 100 equal to 0 AND tahun modulus 400 equal to 0 
+PRINT "tahun kabisat" 
+ELSE 
+PRINT "bukan tahun kabisat"
+
+
+// 3 . Laundry Day 
+Laundry Day 
+
+READ jumlahPakaian equal to 20 
+
+FOR jumlahPakaian equal to 1 until 20 
+IF jumlahPakaian < 20 
+REPEAT jumlahPakaian ADD 1 
+ELSE 
+PRINT "nyalakan mesin cuci" 
+
+
+// 4 . Periksa Kuku
+Periksa Kuku 
+
+READ jumlahSiswa equal to 40 
+READ kukuPanjang
+
+FOR jumlahSiswa equal to 1 until 40 
+IF kukuPanjang TRUE 
+PRINT "siswa/siswi dihukun"
+ELSE 
+PRINT "siswa/siswi dipuji"
