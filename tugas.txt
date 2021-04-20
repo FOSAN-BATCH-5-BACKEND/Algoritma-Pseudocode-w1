@@ -1,17 +1,38 @@
 
-1.
+1. let const var 
+var massaBenda = 600;
 READ variable = massa benda(kg)
+READ massaBenda EQUAL TO six hundred
+
 READ variable = percepatan benda(m/s2)
+READ percepatanBenda EQUAL TO two
+
 READ variable = resultan gaya
+READ resultanGaya EQUAL TO INTEGER
+var resultan = 0
 
 IF massa benda x percepatan benda
 PRINT "(resultan gaya)"
 
+resultanGaya EQUAL TO massaBenda TIMES percepatanBenda
+resultanGaya EQUAL TO six hundred TIMES two
+
++ - * / %
+= > < >= <= == === != !==
 2.
-READ variable = 
+READ variable = a
+READ variable = 4 
+READ variable = 100
+READ variable = 400
 
-
-
+IF (a % 4) = 0
+PRINT "tahun kabisat"
+IF  (a / 100 = 0)
+PRINT "tahun kabisat"
+IF (a / 400) = 
+PRINT "tahun kabisat"
+else
+PRINT "bukan tahun kabisat"
 
 3.
 READ variable = 20
@@ -22,7 +43,6 @@ PRINT "mesin cuci mnyala"
 ELSE
 a < 20
 PRINT "tidak menyala"
-
 
 4. 
 READ kuku equal to 40
