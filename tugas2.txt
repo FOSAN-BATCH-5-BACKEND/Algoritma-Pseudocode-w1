@@ -1,0 +1,43 @@
+---------------------
+// NEWTON SECOND LAW 
+
+READ masaBenda = 600
+READ percepatanBenda = 2
+
+resultan gaya = perkalian masaBenda degan percepatanBenda
+
+---------------------
+//TAHUN KABISAT
+READ tahun
+READ pembagi = 4;
+READ pembahi2 = 100
+READ pembagi3 = 400
+
+IF tahun hasis dibagi pembagi dan tidah habis dibagi pembagi2
+PRINT tahun kabisat
+
+ELSE IF tahun habis dibagi pembagi dan habis dibagi pembagi2 dan hanis dibagi pembagi3
+PRINT tahun kabisat
+
+ELSE
+PRINT bukan tahun kabisat
+
+----------------------
+//LAUNDRY DAY
+READ pakaian equal to 20 
+
+FOR pakaian equal to 1 until 20
+PRINT "cuci"
+
+----------------------
+//PERIKSA KUKU
+
+READ murid equal to 40
+READ kuku
+
+FOR murid equal to 1 until 40
+kuku panjan PRINT "hukum"
+kuku tidak panjang PRINT "AMAN"
+
+
+
