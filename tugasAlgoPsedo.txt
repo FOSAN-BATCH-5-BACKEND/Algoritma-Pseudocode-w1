@@ -1,0 +1,71 @@
+//SOAL 1//
+MASALAH : MENGHITUNG RESULTAN GAYA PADA MOBIL
+VARIABEL : 
+m (massa)             = 600 kg
+a (percepatan)        = 2 m/s2
+ΣF (resultan gaya )   = m * a
+- ALGORITMA
+1. Cari nilai konstanta massa & percepatan
+2. Tulis rumus resultan gaya (m * a)
+3. Rumus resultan gaya (ΣF)= m * a
+4. Lalu masukkan nilai konstanta massa (m) & masukkan perceptan (a)
+5. Proses pehitungan (ΣF = m * a) maka ΣF = 600 * 2 = 1200
+6. Cetak hasil perhitungan = 1200 Newton
+- PSEUDOCODE
+1. READ VARIABEL m = 600;
+2. READ VARIABEL a = 2;
+3. VARIABEL F = m * a;
+4. PROSES F = 600 * 2;
+5. CETAK F = 1200;
+
+//SOAL 2//
+MASALAH : MENCARI TAHUN KABISAT
+VARIABEL tahun
+-ALGORITMA :
+1. Cari nilai dari tahun
+2. Masukkan nilai dari tahun
+3. Jika tahun bisa di bagi dengan 400 maka tahun tersebut adalah tahun kabisat 
+4. Jika tahun bisa di bagi dengan 100 makan tahun tersebut bukan tahun kabisat
+5. Jika tahun bisa dibagi dengan 4 maka tahun tersebut adalah tahun kabisat 
+6. Selain dari kondisi diatas maka tahun tersebut adalah bukan tahun kabisat
+-PSEUDOCODE
+1. READ VARIABEL tahun
+2. IF { TAHUN / 400 THEN TAHUN KABISAT }
+3. ELSE IF { TAHUN / 100 THEN BUKAN TAHUN KABISAT }
+4. ELSE IF { TAHUN / 4 THEN TAHUN KABISAT }
+5. ELSE { BUKAN TAHUN KABISAT }
+
+//SOAL 3//
+MASALAH : MENGHITUNG BANYAKNYA PAKAIAN YANG DICUCI
+VARIABEL pakaian = 20
+-ALGORITMA
+1. Foxie akan menghitung pakaian yang akan dicuci.
+2. Foxie menghitung pakaian pertama (pakaianKe) dengan pakaian 1
+3. Foxie akan mengulangi proses menghitung pakaian hingga pakaian berjumlah 20
+4. Foxie akan mencuci jika kondisi pakaian telah mencapai 20 pakaian
+-PSEUDOCODE
+1. VAR pakaian = 20;
+2. FOR (VARIABEL pakaianKe = 1; pakaianKe <= pakaian; pakaianKe++){
+    CETAK ("Pakaian Ke " +pakaianKe);
+} 
+3. Foxie sekarang bisa ulai mencuci sekarang
+
+//SOAL 4//
+MASALAH : PEMERIKSAAN KUKU SISWA OLEH GURU
+VARIABEL siswa = 40
+-ALGORITMA
+1. Guru memeriksa kuku siswa sejumlah 40 siswa
+2. Guru memeriksa kuku siswa pertama (siswaKe) dengan siswa 1
+3. Guru akan memeriksa kuku siswa 1 sampai dengan siswa ke 40
+4. Siswa yang kuku panjang akan di sanksi
+5. siswa yang kuku pendek akan di puji
+-PSEUDOCODE
+1. VARIABEL siswa = 40;
+2. for (var siswaKe = 1; siswaKe <= siswa ; siswaKe++){
+    if (siswaKe == kukuPanjang){
+        CETAK ("Siswa ini akan di SANKSI " +siswaKe);
+        continue;
+        
+    }
+    CETAK ("Siswa ini akan di PUJi " +siswaKe);
+}
