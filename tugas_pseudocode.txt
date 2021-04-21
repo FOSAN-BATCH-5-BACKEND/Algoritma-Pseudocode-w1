@@ -1,0 +1,73 @@
+1/MENGHITUNG RESULTAN GAYA PADA MOBIL 
+VARIABEL : 
+m (massa)             = 600 kg
+a (percepatan)        = 2 m/s2
+ΣF (resultan gaya )   = m * a
+
+Algoritma:
+1.Cari nilai masing" variabel baik massa dan percepatan
+2.masukkan rumus resultan gaya ΣF =massa dikali dengan percepatan (m*a)
+3.masukkan nilai variabel kedalam rumus ΣF=600*2
+4.Hasil Resultan Gaya adalah 1200
+
+Pseudocode:
+READ VARIABEL m = 600;
+READ VARIBAEL a= 2;
+VARIABEL F= m*a;
+Jalankan Variabel F=600*2;
+Print=1200;
+
+2/MENCARI TAHUN KABISAT
+DIKETAHUI :
+KRITERIA KABISAT satu =Jika tahun habis di bagi 4 dan tidak habis di bagi 100 
+KRITERIA KABISAT dua = Jika tahun habis di bagi 4, habis di bagi 100 dan habis di bagi 400
+VARIABEL TAHUN 
+
+Algoritma
+1.cari nilai tahun 
+2.cari kriteria tahun kabisat
+3.bandingkan nilai tahun dengan kriteria kabisat
+4.Jika nilai tahun tidak sama dengan kriteria kabisat maka cetak hasil tahun bukan kabisat
+5.Jika nilai tahun memenuhi dengan kriteria kabisat maka cetak hasil tahun kabisat
+
+Pseudocode
+READ VARIABEL TAHUN
+IF {TAHUN HABIS DIBAGI 4 DAN TIDAK HABIS DIBAGI 100}
+PRINT TAHUN KABISAT
+ELSE IF{TAHUN HABIS DIBAGI 4 DAN HABIS DI BAGI 100,DAN HABIS DIBAGI 400}
+PRINT TAHUN KABISAT
+ELSE 
+PRINT BUKAN TAHUN KABISAT
+
+3/JIKA MESIN CUCI SUDAH DIMASUKKAN MAKA MULAI mencuci
+VARIABEL baju
+
+Algoritma:
+1.foxie akan mencuci dan menghitung jumlah pakaian
+2.foxie memulai menghitung bajunya mulai dari 1-20 dan dimasukkan ke mesin CUCI
+3.jika semua sudah dimasukkan maka mulai mencuci
+
+Pseudocode
+VARIABEL baju
+
+fOR (VARIABEL BAJU=1; VARIABEL BAJU <=20; VARIABEL PAKAIAN++)
+VARIABEL baju <=20;
+print mulai mencuci
+
+4/MEMERIKSA KUKU SISWA DAN SISWI
+VARIABEL SISWA
+
+ALGORITMA
+1.guru memeriksa 40 murid
+2.jika guru menemukan kuku murid yang panjang murid mendapat hukuman
+3.jika guru menemukan kuku murid yang tidak panjang murid mendapat pujian
+
+Pseudocode
+
+VARIABEL murid
+
+for (VARIABEL murid=1; VARIABEL murid <=40; VARIABEL murid++)
+IF KUKU murid panjang
+print hukuman
+else kuku murid pendek
+print pujian
